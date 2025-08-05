@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/entrenamiento.css" />
+        <title>Entrenamientos</title>
+    </head>
+    <body>
+        <nav>
+            <a href="../index.html" class="tab-button">Plan de Alimentación</a>
+            <a href="comidas.html" class="tab-button">Comidas</a>
+            <a href="entrenamientos.html"
+                class="tab-button active">Entrenamientos</a>
+        </nav>
+
+        <div class="container">
+            <section>
+                <h2>📆 Plan de Entrenamiento por Semanas</h2>
+
+                <div class="weeks">
+                    <button class="week-tab active" data-week="semana1">Semana
+                        1</button>
+                    <button class="week-tab" data-week="semana2">Semana
+                        2</button>
+                    <button class="week-tab" data-week="semana3">Semana
+                        3</button>
+                    <button class="week-tab" data-week="semana4">Semana
+                        4</button>
+                </div>
+
+                <!-- SEMANA 1 -->
+                <div class="week-content active" id="semana1">
+                    <div class="days">
+                        <button class="day-tab active"
+                            data-day="semana1-lunes">Lunes</button>
+                        <button class="day-tab"
+                            data-day="semana1-martes">Martes</button>
+                        <button class="day-tab"
+                            data-day="semana1-miercoles">Miércoles</button>
+                        <button class="day-tab"
+                            data-day="semana1-jueves">Jueves</button>
+                        <button class="day-tab"
+                            data-day="semana1-viernes">Viernes</button>
+                        <button class="day-tab"
+                            data-day="semana1-sabado">Sábado</button>
+                    </div>
+
+                    <div class="day-contents">
+                        <div class="day-content active" id="semana1-lunes">
+                            <h3>Lunes: Fuerza de Tren Inferior + Metcon de
+                                Piernas</h3>
+
+                            <div class="exercise-section">
+                                <h4>A. Back Squat</h4>
+                                <p><strong>5x5 @ 75-80% (250-270
+                                        lb)</strong></p>
+                                <p class="rest-note">→ Descansa 2-3 min entre
+                                    series</p>
+                            </div>
+
+                            <div class="exercise-section">
+                                <h4>B. Metcon (for time):</h4>
+                                <p><strong>3 rondas de:</strong></p>
+                                <ul class="exercise-list">
+                                    <li>400 m Run</li>
+                                    <li>25 Wall Balls (9 kg)</li>
+                                    <li>20 Kettlebell Swings (24 kg)</li>
+                                    <li>15 Box Jumps</li>
+                                </ul>
+                                <p class="time-cap"><strong>Time cap:</strong>
+                                    15-17 min</p>
+                            </div>
+
+                            <div class="exercise-section">
+                                <h4>C. Core Finisher (opcional):</h4>
+                                <p><strong>4 sets:</strong></p>
+                                <ul class="exercise-list">
+                                    <li>20 Russian Twists (con peso)</li>
+                                    <li>20 Hollow Rocks</li>
+                                    <li>30 seg Plank</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="day-content" id="semana1-martes">
+                            <h3>Martes: Gimnasia (Pulling) + EMOM
+                                Metabólico</h3>
+
+                            <div class="exercise-section">
+                                <h4>A. Gimnasia: EMOM 10 min (alternado)</h4>
+                                <ul class="exercise-list">
+                                    <li><strong>Min 1:</strong> 3-5 Ring Muscle
+                                        Ups (o transiciones si no puedes
+                                        todas)</li>
+                                    <li><strong>Min 2:</strong> 8 Chest to Bar +
+                                        12 Toes to Bar</li>
+                                </ul>
+                            </div>
+
+                            <div class="exercise-section">
+                                <h4>B. EMOM 20 min</h4>
+                                <ul class="exercise-list">
+                                    <li><strong>Min 1:</strong> 15/12 Cal
+                                        Row</li>
+                                    <li><strong>Min 2:</strong> 12 Dumbbell
+                                        Snatch (alternating, 22.5 kg)</li>
+                                    <li><strong>Min 3:</strong> 10 Burpees Over
+                                        Dumbbell</li>
+                                    <li><strong>Min 4:</strong> Rest</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="day-content" id="semana1-miercoles">
+                            <h3>Miércoles: Técnica + Snatch Conditioning</h3>
+
+                            <div class="exercise-section">
+                                <h4>A. Técnica de Snatch</h4>
+                                <ul class="exercise-list">
+                                    <li>3 sets: 3 Snatch Balance
+                                        (ligero-medio)</li>
+                                    <li>4 sets: 2 Squat Snatch @ 70-75% (135-145
+                                        lb)</li>
+                                </ul>
+                            </div>
+
+                            <div class="exercise-section">
+                                <h4>B. WOD – AMRAP 12</h4>
+                                <ul class="exercise-list">
+                                    <li>3 Squat Snatch (95 lb)</li>
+                                    <li>6 Pull-ups</li>
+                                    <li>9 Overhead Squats (95 lb)</li>
+                                    <li>12 Lateral Burpees over bar</li>
+                                </ul>
+                            </div>
+
+                            <div class="exercise-section">
+                                <h4>Opcional Core:</h4>
+                                <p><strong>3 sets de:</strong></p>
+                                <ul class="exercise-list">
+                                    <li>20 V-Ups</li>
+                                    <li>30s Hollow Hold</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="day-content" id="semana1-jueves">
+                            <h3>Jueves: Gimnasia (HS y core) + WOD Mixto</h3>
+
+                            <div class="exercise-section">
+                                <h4>A. Gimnasia (EMOM 10):</h4>
+                                <ul class="exercise-list">
+                                    <li><strong>Min 1:</strong> 5-7 Strict
+                                        Handstand Push Ups (usa abmat si
+                                        necesitas)</li>
+                                    <li><strong>Min 2:</strong> 20-25 segundos
+                                        de Handstand Walk o práctica con wall
+                                        walks</li>
+                                </ul>
+                            </div>
+
+                            <div class="exercise-section">
+                                <h4>B. WOD – For Time: 21-15-9</h4>
+                                <ul class="exercise-list">
+                                    <li>Dumbbell Thrusters (2x22.5 kg)</li>
+                                    <li>Toes to Bar</li>
+                                    <li>Cal Row o Assault Bike (15-12-9
+                                        cal)</li>
+                                </ul>
+                                <p class="time-cap"><strong>Time Cap:</strong>
+                                    12-15 min</p>
+                            </div>
+                        </div>
+
+                        <div class="day-content" id="semana1-viernes">
+                            <h3>Viernes: Fuerza de Clean & Jerk + WOD
+                                pesado</h3>
+
+                            <div class="exercise-section">
+                                <h4>A. Clean & Jerk – 6 sets:</h4>
+                                <p><strong>2 reps al 80-85% (205-215
+                                        lb)</strong></p>
+                                <p class="rest-note">→ Trabaja en técnica rápida
+                                    y agresiva</p>
+                            </div>
+
+                            <div class="exercise-section">
+                                <h4>B. WOD – For time: 5 rondas</h4>
+                                <ul class="exercise-list">
+                                    <li>5 Power Cleans (155 lb)</li>
+                                    <li>10 Push-ups</li>
+                                    <li>15 Air Squats</li>
+                                </ul>
+                                <p class="rest-note">→ Cada ronda en < 2:30</p>
+                            </div>
+                        </div>
+
+                        <div class="day-content" id="semana1-sabado">
+                            <h3>Sábado: Long WOD / Partner WOD (Alta quema
+                                calórica)</h3>
+
+                            <div class="exercise-section">
+                                <h4>WOD tipo "Chipper" o por equipos (individual
+                                    si estás solo):</h4>
+                                <h4>"Sweat & Burn" – For time:</h4>
+                                <ul class="exercise-list">
+                                    <li>800 m Run</li>
+                                    <li>50 Wall Balls</li>
+                                    <li>40 Box Jump Overs</li>
+                                    <li>30 Kettlebell Swings</li>
+                                    <li>20 Burpees</li>
+                                    <li>10 Bar Muscle Ups o Pull-ups</li>
+                                    <li>800 m Run</li>
+                                </ul>
+                                <p class="rest-note">→ Escala con jumping
+                                    pull-ups o chest to bar si es necesario</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEMANA 2 -->
+                <div class="week-content" id="semana2">
+                    <div class="days">
+                        <button class="day-tab active"
+                            data-day="semana2-lunes">Lunes</button>
+                        <button class="day-tab"
+                            data-day="semana2-martes">Martes</button>
+                        <button class="day-tab"
+                            data-day="semana2-miercoles">Miércoles</button>
+                        <button class="day-tab"
+                            data-day="semana2-jueves">Jueves</button>
+                        <button class="day-tab"
+                            data-day="semana2-viernes">Viernes</button>
+                        <button class="day-tab"
+                            data-day="semana2-sabado">Sábado</button>
+                    </div>
+
+                    <div class="day-contents">
+                        <div class="day-content active" id="semana2-lunes">
+                            <h2>Lunes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana2-martes">
+                            <h2>Martes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana2-miercoles">
+                            <h2>Miercoles: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana2-jueves">
+                            <h2>Jueves: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana2-viernes">
+                            <h2>Viernes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana2-sabado">
+                            <h2>Sabado: Ejercicio de Fitness</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEMANA 3 -->
+                <div class="week-content" id="semana3">
+                    <div class="days">
+                        <button class="day-tab active"
+                            data-day="semana3-lunes">Lunes</button>
+                        <button class="day-tab"
+                            data-day="semana3-martes">Martes</button>
+                        <button class="day-tab"
+                            data-day="semana3-miercoles">Miércoles</button>
+                        <button class="day-tab"
+                            data-day="semana3-jueves">Jueves</button>
+                        <button class="day-tab"
+                            data-day="semana3-viernes">Viernes</button>
+                        <button class="day-tab"
+                            data-day="semana3-sabado">Sábado</button>
+                    </div>
+
+                    <div class="day-contents">
+                        <div class="day-content active" id="semana3-lunes">
+                            <h2>Lunes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana3-martes">
+                            <h2>Martes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana3-miercoles">
+                            <h2>Miercoles: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana3-jueves">
+                            <h2>Jueves: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana3-viernes">
+                            <h2>Viernes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana3-sabado">
+                            <h2>Sabado: Ejercicio de Fitness</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEMANA 4 -->
+                <div class="week-content" id="semana4">
+                    <div class="days">
+                        <button class="day-tab active"
+                            data-day="semana4-lunes">Lunes</button>
+                        <button class="day-tab"
+                            data-day="semana4-martes">Martes</button>
+                        <button class="day-tab"
+                            data-day="semana4-miercoles">Miércoles</button>
+                        <button class="day-tab"
+                            data-day="semana4-jueves">Jueves</button>
+                        <button class="day-tab"
+                            data-day="semana4-viernes">Viernes</button>
+                        <button class="day-tab"
+                            data-day="semana4-sabado">Sábado</button>
+                    </div>
+
+                    <div class="day-contents">
+                        <div class="day-content active" id="semana4-lunes">
+                            <h2>Lunes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana4-martes">
+                            <h2>Martes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana4-miercoles">
+                            <h2>Miercoles: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana4-jueves">
+                            <h2>Jueves: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana4-viernes">
+                            <h2>Viernes: Ejercicio de Fitness</h2>
+                        </div>
+
+                        <div class="day-content" id="semana4-sabado">
+                            <h2>Sabado: Ejercicio de Fitness</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="../js/entrenamiento.js"></script>
+    </body>
+</html>
