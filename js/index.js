@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Elementos de la sidebar
-const navToggle = document.addEventListener('navToggle');
-const sidebar = document.addEventListener('sidebar');
-const sidebarOverlay = document.addEventListener('sidebarOverlay');
+const navToggle = document.getElementById('navToggle');
+const sidebar = document.getElementById('sidebar');
+const sidebarOverlay = document.getElementById('sidebarOverlay');
 
 // Toggle sidebar
 navToggle.addEventListener('click', () => {
