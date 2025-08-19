@@ -70,3 +70,35 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+// Elementos del sidebBar
+const navToggle = document.getElementById('navToggle');
+const sidebar = document.getElementById('sidebar');
+const sidebarOverlay = document.getElementById('sidebarOverlay');
+
+
+// Toggle sidebar
+navToggle.addEventListener('click', () => {
+    navToggle.classList.toggle('active');
+    sidebar.classList.toggle('active');
+    sidebarOverlay.classList.toggle('active');
+});
+
+// Cerrar el sidebar al hacer click
+sidebarOverlay.addEventListener('click', () => {
+    navToggle.classList.remove('active');
+    sidebar.classList.remove('active');
+    sidebarOverlay.classList.remove('active');
+});
+
+// Cerrar sidebar al hacer click en un enlace (Móvil)
+const navLinks = document.querySelectorAll('a');
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+            navToggle.classList.remove('active');
+            sidebar.classList.remove('active');
+            sidebarOverlay.classList.remove('active')
+        }
+    })
+})
