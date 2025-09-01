@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Notas</title>
+        <link rel="stylesheet" href="/css/notas.css">
+        <link rel="stylesheet" href="../assets/notas-panel.css">
+    </head>
+    <body>
+        <!-- Barra superior -->
+        <!-- <header class="header">
+            <h1>Notas</h1>
+            <button id="volver">⬅ Volver</button>
+        </header> -->
+
+        <!-- Formulario para nueva nota -->
+        <section class="nueva-nota">
+            <h2>Agregar Nota</h2>
+            <form id="notaForm">
+                <input type="text" id="titulo" placeholder="Título de la nota"
+                    required>
+                <textarea id="contenido" placeholder="Escribe tu nota aquí..."
+                    required></textarea>
+                <button type="submit">Guardar</button>
+            </form>
+        </section>
+
+        <!-- Lista de notas -->
+        <section class="lista-notas">
+            <h2>Mis Notas</h2>
+            <div id="notasContainer"></div>
+        </section>
+
+        <script src="/js/notas.js"></script>
+        <script defer src="../assets/notas-panel.js"></script>
+    </body>
+</html>

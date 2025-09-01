@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../css/entrenamiento.css" />
+        <link rel="stylesheet" href="../assets/notas-panel.css" />
         <title>Entrenamientos</title>
     </head>
     <body>
@@ -15,7 +16,11 @@
             <a href="comidas.html" class="tab-button">Comidas</a>
             <a href="entrenamientos.html"
                 class="tab-button active">Entrenamientos</a>
+            <!-- dentro de tu nav -->
+            <button id="btnNotas" class="tab-button">Notas</button>
+
         </nav>
+
         <br>
 
         <div class="container">
@@ -762,7 +767,21 @@
                     </div>
                 </div>
             </div>
+            <!-- Panel de Notas -->
+            <div id="notesPanel" class="notes-panel">
+                <div class="notes-header">
+                    <h2>Notas</h2>
+                    <button id="closeNotes">✖</button>
+                </div>
+                <div class="notes-body">
+                    <textarea id="noteInput"
+                        placeholder="Escribe tu nota..."></textarea>
+                    <button id="saveNote">Guardar</button>
+                    <ul id="notesList"></ul>
+                </div>
+            </div>
 
             <script src="../js/entrenamiento.js"></script>
+            <script defer src="../assets/notas-panel.js"></script>
         </body>
     </html>
