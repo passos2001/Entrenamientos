@@ -1,0 +1,103 @@
+{
+    "semana": 11,
+    "dias": {
+        "lunes": {
+            "titulo": "Fuerza Piernas + WOD Corto (Sprint)",
+            "ejercicios": [
+                "A. Back Squat – 5x5 @ 75% (260 lb aprox.)",
+                "B. Accesorios (3 rondas):",
+                "- 12 Step-ups pesados",
+                "- 12 Hip Thrusts",
+                "- 20 Hollow Rocks",
+                "C. WOD – 'Sprint Power' (cap 12’):",
+                "- 3 rondas:",
+                "  - 10 Thrusters (95 lb)",
+                "  - 200m Run",
+                "  - 15 Burpees"
+            ]
+        },
+        "martes": {
+            "titulo": "Pull Upper + Conditioning Largo",
+            "ejercicios": [
+                "A. Weighted Pull-ups – 6x4",
+                "B. Accesorios (3 rondas):",
+                "- 12 Barbell Rows",
+                "- 12 Curl Biceps",
+                "- 12 Face Pulls",
+                "C. AMRAP 30:",
+                "- 500m Row",
+                "- 20 Toes to Bar",
+                "- 20 KB Swings (24 kg)",
+                "- 15 Push-ups",
+                "- 200m Farmer Carry"
+            ]
+        },
+        "miercoles": {
+            "titulo": "Snatch + RM Bajo Fatiga",
+            "ejercicios": [
+                "A. Técnica: 6 sets (2 Hang Snatch + 1 Squat Snatch) @ 70%",
+                "B. WOD (cap 12’):",
+                "- 21-15-9",
+                "- Power Snatch (95 lb)",
+                "- Chest to Bar Pull-ups",
+                "C. Test opcional:",
+                "- Buscar RM Snatch después del WOD bajo fatiga"
+            ]
+        },
+        "jueves": {
+            "titulo": "Deadlift + Chipper Extendido",
+            "ejercicios": [
+                "A. Deadlift – 4x6 @ 70% (310 lb aprox.)",
+                "B. Accesorios (3 rondas):",
+                "- 12 Romanian Deadlifts",
+                "- 12 Split Squats",
+                "- 1’ Side Plank cada lado",
+                "C. Chipper (cap 30’):",
+                "- 100 Double Unders",
+                "- 80 Wall Balls",
+                "- 60 Box Jumps",
+                "- 40 Deadlifts (135 lb)",
+                "- 20 HSPU",
+                "- 800m Run"
+            ]
+        },
+        "viernes": {
+            "titulo": "Bench + Intervalos Mixtos",
+            "ejercicios": [
+                "A. Bench Press – 6x3 @ 75% (185 lb aprox.)",
+                "B. Accesorios (3 rondas):",
+                "- 12 Incline DB Press",
+                "- 12 Tríceps Rope",
+                "- 12 Arnold Press",
+                "C. EMOM 20:",
+                "- Min 1: 12 Cal Bike",
+                "- Min 2: 10 Thrusters (95 lb)",
+                "- Min 3: 12 Burpees Over Bar",
+                "- Min 4: Descanso"
+            ]
+        },
+        "sabado": {
+            "titulo": "Hero Style Largo",
+            "ejercicios": [
+                "‘Enduro 45’ – For Time (cap 45’):",
+                "- 1000m Run",
+                "- 50 Pull-ups",
+                "- 50 Push-ups",
+                "- 50 Sit-ups",
+                "- 40 KB Swings (24 kg)",
+                "- 30 Box Jumps",
+                "- 20 Clean & Jerks (135 lb)",
+                "- 10 Bar Muscle Ups",
+                "- 1000m Run"
+            ]
+        },
+        "domingo": {
+            "titulo": "Descanso / Movilidad",
+            "ejercicios": [
+                "Movilidad",
+                "Estiramientos",
+                "Caminata ligera o yoga"
+            ]
+        }
+    }
+}

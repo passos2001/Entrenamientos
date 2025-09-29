@@ -1,0 +1,82 @@
+{
+    "semana": 12,
+    "dias": {
+        "lunes": {
+            "titulo": "Test Back Squat + WOD Corto",
+            "ejercicios": [
+                "A. Buscar RM Back Squat (subir progresivamente hasta 1 rep máxima)",
+                "B. WOD – 'Leg Burner' (cap 10’):",
+                "- 21-15-9",
+                "- Thrusters (95 lb)",
+                "- Box Jumps",
+                "- Burpees"
+            ]
+        },
+        "martes": {
+            "titulo": "Test Bench Press + Conditioning Medio",
+            "ejercicios": [
+                "A. Buscar RM Bench Press",
+                "B. Accesorios ligeros (2 rondas):",
+                "- 12 Push-ups",
+                "- 12 DB Shoulder Press",
+                "C. AMRAP 15:",
+                "- 400m Run",
+                "- 15 Pull-ups",
+                "- 20 KB Swings (24 kg)"
+            ]
+        },
+        "miercoles": {
+            "titulo": "Test Snatch + WOD Gimnástico",
+            "ejercicios": [
+                "A. Buscar RM Snatch",
+                "B. WOD – 'Grip Test' (cap 12’):",
+                "- 5 rondas:",
+                "- 10 Toes to Bar",
+                "- 10 Chest to Bar Pull-ups",
+                "- 100m Farmer Carry (2x24 kg KB)"
+            ]
+        },
+        "jueves": {
+            "titulo": "Test Deadlift + Conditioning Corto",
+            "ejercicios": [
+                "A. Buscar RM Deadlift",
+                "B. EMOM 12:",
+                "- Min 1: 12 Cal Row",
+                "- Min 2: 12 Burpees",
+                "- Min 3: Descanso"
+            ]
+        },
+        "viernes": {
+            "titulo": "Test Clean & Jerk + WOD Corto de Potencia",
+            "ejercicios": [
+                "A. Buscar RM Clean & Jerk",
+                "B. WOD – 'Quick Fire' (cap 8’):",
+                "- 5 rondas:",
+                "- 5 Power Cleans (135 lb)",
+                "- 10 Push-ups",
+                "- 15 Air Squats"
+            ]
+        },
+        "sabado": {
+            "titulo": "Hero WOD Largo (Cierre del Ciclo)",
+            "ejercicios": [
+                "‘Hero Closer’ – For Time (cap 40’):",
+                "- 1000m Run",
+                "- 50 Wall Balls",
+                "- 40 Pull-ups",
+                "- 30 Deadlifts (135 lb)",
+                "- 20 HSPU",
+                "- 10 Bar Muscle Ups",
+                "- 1000m Run"
+            ]
+        },
+        "domingo": {
+            "titulo": "Descanso / Recuperación",
+            "ejercicios": [
+                "Movilidad",
+                "Foam roller",
+                "Caminata ligera o yoga suave"
+            ]
+        }
+    }
+}

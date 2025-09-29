@@ -1,0 +1,97 @@
+{
+    "semana": 9,
+    "dias": {
+        "lunes": {
+            "titulo": "Back Squat + WOD Corto",
+            "ejercicios": [
+                "Back Squat – 5x5 @ 70% (240 lb aprox.)",
+                "Accesorios Pierna (3 rondas):",
+                "- 12 Lunges con barra",
+                "- 12 Hip Thrusts",
+                "- 15 Sit-ups",
+                "WOD – For Time (cap 12’):",
+                "- 21-15-9 Deadlifts (135 lb)",
+                "- Box Jumps",
+                "- Burpees"
+            ]
+        },
+        "martes": {
+            "titulo": "Gimnásticos + AMRAP Largo",
+            "ejercicios": [
+                "Skill: 6x max rep Handstand Push-ups",
+                "Accesorios Upper (3 rondas):",
+                "- 12 Pull-ups estrictos",
+                "- 12 Ring Rows",
+                "- 12 Curl Biceps",
+                "AMRAP 25:",
+                "- 400m Run",
+                "- 15 Toes to Bar",
+                "- 20 Push-ups",
+                "- 20 KB Swings (24 kg)"
+            ]
+        },
+        "miercoles": {
+            "titulo": "Snatch Técnico + WOD Intermedio",
+            "ejercicios": [
+                "Técnica Snatch: 6 sets (2 Hang Snatch + 1 Squat Snatch) @ 70%",
+                "WOD – For Time (cap 15’):",
+                "- 5 rondas:",
+                "- 10 Power Snatch (95 lb)",
+                "- 12 Wall Balls",
+                "- 200m Run"
+            ]
+        },
+        "jueves": {
+            "titulo": "Deadlift + Chipper",
+            "ejercicios": [
+                "Deadlift – 5x3 @ 75% (330 lb aprox.)",
+                "Accesorios (3 rondas):",
+                "- 12 Romanian Deadlifts",
+                "- 12 Split Squats",
+                "- 1’ Side Plank cada lado",
+                "Chipper – For Time (cap 20’):",
+                "- 50 Double Unders",
+                "- 40 Box Jumps",
+                "- 30 Pull-ups",
+                "- 20 Deadlifts (135 lb)",
+                "- 10 Bar Muscle Ups"
+            ]
+        },
+        "viernes": {
+            "titulo": "Bench Press + Intervalado",
+            "ejercicios": [
+                "Bench Press – 5x5 @ 70% (170 lb aprox.)",
+                "Accesorios (3 rondas):",
+                "- 12 Incline DB Press",
+                "- 12 Tríceps Rope",
+                "- 12 Lateral Raises",
+                "WOD – EMOM 20:",
+                "- Min 1: 12 Thrusters (95 lb)",
+                "- Min 2: 15 Cal Row",
+                "- Min 3: 12 Burpees",
+                "- Min 4: Descanso"
+            ]
+        },
+        "sabado": {
+            "titulo": "WOD Largo tipo HERO",
+            "ejercicios": [
+                "Hero Mix – For Time (cap 40’):",
+                "800m Run",
+                "30 Clean & Jerk (135 lb)",
+                "40 Sit-ups",
+                "40 Box Jumps",
+                "50 Push-ups",
+                "60 KB Swings (24 kg)",
+                "70 Wall Balls",
+                "800m Run"
+            ]
+        },
+        "domingo": {
+            "titulo": "Descanso / Movilidad",
+            "ejercicios": [
+                "Estiramientos, movilidad de cadera y hombros",
+                "Caminata ligera o yoga suave"
+            ]
+        }
+    }
+}

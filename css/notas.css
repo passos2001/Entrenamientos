@@ -170,6 +170,29 @@ body {
     cursor: pointer;
 }
 
+/* Botón con mismo estilo que los links de la nav */
+.nav-btn {
+    color: #fff;
+    background-color: #495057;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: #6c757d;
+}
+
+.nav-btn.active {
+    background-color: #28a745;
+}
+
 
 /* ====== Responsive ====== */
 
